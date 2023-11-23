@@ -1,14 +1,14 @@
 /*Calculo de preço de produto 
 
-Débito a vista 10% de desconto
-Dinheiro ou pix 15% de desconto
-2 x sem juros 
-3x ou mais juros de 10%
+1 -Débito a vista 10% de desconto;
+2-Dinheiro ou pix 15% de desconto;
+3-2 x sem juros;
+4-3x ou mais juros de 10%;
 
 */
 
 const valor = 1500;
-var formaPagamento = "pix";
+let formaPagamento = "pix";
 
 if(formaPagamento === "debito"){
     const valor1 = (1500 * 10) /100 ;
