@@ -1,21 +1,24 @@
-* {
-    font-family: roboto , sans-serif;
+*{
+    font-family: 'Courier New', Courier, monospace   ;
 };
 
 .content{
     padding: 1rem;
 };
-.pokemon{
-    margin: 0;
+
+ol.pokemon{
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
     margin: 0;
 };
-.pokemon li{
+
+ol.pokemon li{
     margin: .5rem;
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
     background-color: #14A06F;
+    color:#fff;
 
 };
