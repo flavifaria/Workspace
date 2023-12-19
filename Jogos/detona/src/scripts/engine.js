@@ -24,7 +24,7 @@ const state = {
     if (state.values.curretTime <= 0) {
       clearInterval(state.actions.countDownTimerId);
       clearInterval(state.actions.timerId);
-      alert("Game Over! O seu resultado foi: " + state.values.result);
+      alert("Parabéns! O seu resultado : " + state.values.result);
     }
   }
   
@@ -61,6 +61,8 @@ const state = {
   function initialize() {
     addListenerHitBox();
   }
+  
+  
   
   initialize();
   
